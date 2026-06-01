@@ -1,0 +1,22 @@
+# Dependencias obrigatorias - Mission Control AI
+# Versoes fixadas para garantir reprodutibilidade entre maquinas
+
+# Cliente oficial Python para Ollama Cloud (modelo gpt-oss:120b)
+ollama==0.6.2
+
+# Carrega a API key do arquivo .env
+python-dotenv==1.2.2
+
+# Renderizacao de paineis, banners e tabelas no terminal
+rich==15.0.0
+
+# Input editavel no terminal com historico, estilo Claude Code
+prompt-toolkit==3.0.52
+
+# Gera o banner ASCII art da abertura do sistema
+pyfiglet==1.0.4
+
+# Bibliotecas opcionais (descomentem caso queiram incrementar):
+# textual==1.0.0           # TUI completa com layouts CSS-like
+# pandas==2.2.3            # Manipulacao de series temporais de telemetria
+# matplotlib==3.9.2        # Graficos no terminal

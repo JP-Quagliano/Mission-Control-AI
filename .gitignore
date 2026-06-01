@@ -1,0 +1,42 @@
+# Mission Control AI - .gitignore
+# IMPORTANTE: o arquivo .env contem a API key da Ollama Cloud
+# e NUNCA deve ser commitado. Penalidade automatica: -2,0 pts.
+
+# Variaveis de ambiente com credenciais
+.env
+.env.local
+.env.*.local
+
+# Cache e binarios do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs e cache da aplicacao
+*.log
+.cache/
+
+# Distribuicao / build
+build/
+dist/
+*.egg-info/
