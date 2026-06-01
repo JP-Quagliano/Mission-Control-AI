@@ -8,4 +8,4 @@ Turma: 1CCPH
 
 Link do repositório GitHub: https://github.com/JP-Quagliano/Mission-Control-AI
 
-Link do vídeo de demonstração: 
+Link do vídeo de demonstração: https://youtu.be/UX6QUSSRa0w
